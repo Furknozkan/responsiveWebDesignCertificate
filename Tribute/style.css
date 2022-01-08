@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(233, 233, 233);
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .title{
+    color: rgb(10, 10, 10);
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-size: 30px;
+}
+
+.container .content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(70, 70, 70);
+}
+.container .content .img .image img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin: 3rem;
+}
+
+.container .tribute-info{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    max-width: 40%;
+    font-size: 18px;
+}
+.container .tribute-text{
+    margin: 2rem;
+}
+
+.btn{
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: #fff;
+}
+
+.btn a:hover{
+    color: black;
+
+}
+
+@media only screen and (max-width: 280px) {
+    .container .title {
+        font-size: 20px;
+        margin-bottom: 1rem;
+    }
+    
+    .container .content .img .image img{
+        width: 250px;
+        height: 250px;
+    }
+    .container .tribute-info{
+        max-width: 85%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+  }
+  @media only screen and (max-width: 540px) {
+    .container .title {
+        font-size: 24px;
+    }
+    
+      .container .content .img .image img{
+        width: 300px;
+        height: 300px;
+        margin: 2rem;
+    }
+    .container .tribute-info{
+        max-width: 75%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .container .tribute-text{
+        margin: 4rem;
+    }
+  }
+
+  @media only screen and (max-width: 768px){
+    .container .content{
+        flex-direction: column;   
+      }
+      .container .tribute-info{
+        max-width: 80%;
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+  }
+
+  
