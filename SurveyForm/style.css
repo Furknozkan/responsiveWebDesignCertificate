@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: rgb(98, 0, 255);   
+}
+
+.main h1, p{
+    color: #fff;
+}
+#title{
+    margin-bottom: 0.5rem;
+    font-size: 48px;
+    text-align: center;
+}
+#description{
+    font-size: 32px;
+    margin-bottom: 2rem;
+}
+
+.content{
+    color: #fff;
+}
+
+.content .name{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.content .name label{
+    font-size: 24px;
+    font-weight: 600;
+}
+.content .name input{
+    padding: 8px;
+}
+
+
+.content .email{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.content .email label{
+    font-size: 24px;
+    font-weight: 600;
+}
+.content .email input{
+    padding: 8px;
+}
+
+
+
+.content .number{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.content .number label{
+    font-size: 24px;
+    font-weight: 600;
+}
+.content .number input{
+    padding: 8px;
+}
+
+
+
+.content .dropdown{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.content .dropdown label{
+    font-size: 24px;
+    font-weight: 600;
+}
+.content .dropdown select{
+    padding: 8px;
+}
+
+
+.content .radio-option{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.content .radio-option legend{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.content .radio-option label{
+    font-size: 24px;
+    font-weight: 200;
+}
+
+
+.content .text-area{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.content .text-area label{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.content .text-area textarea{
+    font-weight: 400;
+    padding: 8px;
+}
+
+.btn button{
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    width: 100px;
+}
+
+@media only screen and (max-width: 450px) {
+    #title{
+        font-size: 40px;
+    }
+    #description{
+        font-size: 28px;
+    }
+  }
+
+  @media only screen and (max-width: 350px) {
+    #title{
+        font-size: 36px;
+    }
+    #description{
+        font-size: 24px;
+    }
+  }

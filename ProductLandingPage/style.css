@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{}
+
+/*----HEADER SECTION-----*/
+.header{
+    background-color: rgb(209, 209, 209);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .header-img img{
+    padding: 0.5rem;
+    width: 100px;
+    height: 50px;
+}
+.header .navBar ul {
+    display: flex;
+}
+
+.header .navBar ul li{
+    margin-right: 1rem;
+    font-size: 18px;
+}
+
+/*------VIDEO SECTION------*/
+
+.video{
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.video .content h1{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.video .content ul li{
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/*------Product SECTION------*/
+.products{
+
+}
+.products h2{
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+}
+
+.products .cards{
+    display: flex;
+    margin-left: 2rem;
+    margin-bottom: 10rem;
+}
+
+.products .cards .card {
+    width: 500px;
+    height: 400px;
+    margin-right: 2rem;
+}
+.products .cards .card .image img{
+    width: 500px;
+    height: 400px;
+}
+
+.products .cards .card .texts .top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.products .cards .card .texts .description{
+    margin-top: 0.5rem;
+    opacity: 0.6;
+}
+
+/*----E-Mail Form----*/
+
+.form form{
+    display: flex;
+    flex-direction: column;
+}
+.form form label{
+    font-size: 18px;
+    margin: 0 auto;
+}
+.form form input{
+padding: 8;
+}
+
